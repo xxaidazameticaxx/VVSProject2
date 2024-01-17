@@ -1,0 +1,1394 @@
+{
+  "id": "a2b175fa-c40b-4598-a9fd-48d97ca2045c",
+  "version": "2.0",
+  "name": "VVS-zadatak1",
+  "url": "https://kesten.ba/index.php/bih/",
+  "tests": [{
+    "id": "068ad685-3ca1-437f-a0e3-70d8bafb4360",
+    "name": "Validan range cijena - pozitivneVrijednostiCijena_MinManjaOdMax",
+    "commands": [{
+      "id": "0690ec24-d320-425b-8588-552c2dc85221",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2023ed6-b2df-4854-b322-0e90cbded003",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Mod397 .item-3720 > a",
+      "targets": [
+        ["css=#Mod397 .item-3720 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pretraga shoppa')])[2]", "xpath:link"],
+        ["xpath=//div[@id='Mod397']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/pretraga-shoppa')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f14cdbff-e84b-42da-b5ff-048af04daed6",
+      "comment": "",
+      "command": "click",
+      "target": "id=price_from",
+      "targets": [
+        ["id=price_from", "id"],
+        ["name=price_from", "name"],
+        ["css=#price_from", "css:finder"],
+        ["xpath=//input[@id='price_from']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a339bf8-5a0e-43fc-99ea-647cfe4eea77",
+      "comment": "",
+      "command": "type",
+      "target": "id=price_from",
+      "targets": [
+        ["id=price_from", "id"],
+        ["name=price_from", "name"],
+        ["css=#price_from", "css:finder"],
+        ["xpath=//input[@id='price_from']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "bab6e50b-099e-4a13-9348-c91083da9f50",
+      "comment": "",
+      "command": "click",
+      "target": "id=price_to",
+      "targets": [
+        ["id=price_to", "id"],
+        ["name=price_to", "name"],
+        ["css=#price_to", "css:finder"],
+        ["xpath=//input[@id='price_to']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8133da-f797-4d8b-9941-5e2cb98e40a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=price_to",
+      "targets": [
+        ["id=price_to", "id"],
+        ["name=price_to", "name"],
+        ["css=#price_to", "css:finder"],
+        ["xpath=//input[@id='price_to']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "e8a53ee8-2bff-4111-b853-b0823303e0a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1)",
+      "targets": [
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c74154c8-8b07-4e38-80ac-9601f204a927",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//div[@class='jshop' and descendant::div[@class='jshop_list_product']]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4f98fa27-6f3d-44cc-a1a0-caaed6fcfc8b",
+    "name": "Validan range cijena - pozitivneVrijednostiCijena_MinJednakMax",
+    "commands": [{
+      "id": "4e839cbf-a5cc-456b-b817-07af187e6f62",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6739a25d-df68-4fe1-997c-a621a7ddb1d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Mod397 .item-3720 > a",
+      "targets": [
+        ["css=#Mod397 .item-3720 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pretraga shoppa')])[2]", "xpath:link"],
+        ["xpath=//div[@id='Mod397']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/pretraga-shoppa')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec60d2c1-baea-47d5-bfc3-3bc82279af49",
+      "comment": "",
+      "command": "click",
+      "target": "id=price_from",
+      "targets": [
+        ["id=price_from", "id"],
+        ["name=price_from", "name"],
+        ["css=#price_from", "css:finder"],
+        ["xpath=//input[@id='price_from']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a575bd97-48b4-41c5-b017-2c0c97114dd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=price_from",
+      "targets": [
+        ["id=price_from", "id"],
+        ["name=price_from", "name"],
+        ["css=#price_from", "css:finder"],
+        ["xpath=//input[@id='price_from']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "f3c59428-538b-4f5d-bec1-d44a339d2445",
+      "comment": "",
+      "command": "click",
+      "target": "id=price_to",
+      "targets": [
+        ["id=price_to", "id"],
+        ["name=price_to", "name"],
+        ["css=#price_to", "css:finder"],
+        ["xpath=//input[@id='price_to']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "070755fd-30a6-4651-9a2b-e4c0210f7b3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=price_to",
+      "targets": [
+        ["id=price_to", "id"],
+        ["name=price_to", "name"],
+        ["css=#price_to", "css:finder"],
+        ["xpath=//input[@id='price_to']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "43694e13-5198-4a8d-8a78-ab6ceb6e4112",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1)",
+      "targets": [
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a3c1de8-dde7-44c7-9145-7c37fcfcaf0e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//div[@class='jshop' and descendant::div[@class='jshop_list_product']]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d0b3252a-3a51-4112-98dd-c8f97bb0ade1",
+    "name": "Uspješno dodavanje proizvoda na board platforme 'Pinterest'",
+    "commands": [{
+      "id": "255693ca-d814-421e-bdf9-3b56f58cb162",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7909dd1-78da-478e-88f8-83402aa3f915",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "654x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8db94d84-46eb-462f-9b6c-87b24dabcc93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nina",
+      "targets": [
+        ["linkText=Nina", "linkText"],
+        ["css=#Mod367 .width100:nth-child(2) .name:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Nina')]", "xpath:link"],
+        ["xpath=//div[@id='Mod367']/div/div/div/div/div/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/shop-katalog/product/view/38/542')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "254536b9-76dd-437c-bff6-4f8a1e8be9f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Save",
+      "targets": [],
+      "value": "30000",
+      "opensWindow": true,
+      "windowHandleName": "win1211",
+      "windowTimeout": 2000
+    }, {
+      "id": "defd477d-365b-4f6a-889b-33abc3fad3f7",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33b0388d-fa56-4bce-93ae-7bdb5e3dcc80",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1211}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a83e9a51-99ea-4cc9-b8e1-559a06a08d03",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Pinterest",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8740ecbc-6c96-4d4d-9df9-90613a086f4d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#mweb-unauth-container > div > div > div.XbT.zI7.iyn.Hsu > div > div > div > div > div > div > div > div > div > div.Jea.KS5.jzS.l7T.mQ8.zI7.iyn.Hsu > div > div > div > div > div > div > img[src*='Nina']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a945079f-cbb8-4838-99e9-92ca20f5a08e",
+    "name": "Provjera back dugmeta unutar prikaza kategorije proizvoda bez dodanih filtera",
+    "commands": [{
+      "id": "bb1d355b-da4d-48f9-a6e9-63340872e5f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5918c641-9105-4800-a3a5-3ceec6818651",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a65f0e0-4655-414b-8882-6f81c60b072e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary > .fa",
+      "targets": [
+        ["css=.off-canvas-toggle-primary > .fa", "css:finder"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5c591a-fc98-4f4d-abdc-bf01732f60dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eedf56b-017d-412b-aa09-e67b62ba4eed",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href;",
+      "targets": [],
+      "value": "firstURL"
+    }, {
+      "id": "3f681611-3a28-47e1-a78c-3c82c3a2251a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productitem_687 .btn-primary",
+      "targets": [
+        ["css=.productitem_687 .btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Detail')]", "xpath:link"],
+        ["xpath=//div[@id='comjshop_list_product']/div/div/div[2]/div/div[5]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/shop-katalog/product/view/19/687')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "543bcf9f-3e00-4bd1-ace4-c01f39a58a40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-back",
+      "targets": [
+        ["css=.link-back", "css:finder"],
+        ["xpath=//input[@value='Back']", "xpath:attributes"],
+        ["xpath=//div[@id='t3-content']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc49cab7-a56b-4749-aea2-f67671fe2a72",
+      "comment": "",
+      "command": "pause",
+      "target": "30000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57dab671-8489-4262-95cb-89469b0a98e2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href;",
+      "targets": [],
+      "value": "secondURL"
+    }, {
+      "id": "ea729e5a-59a1-49fe-b180-ade1d1e0483d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if(arguments[0]!=arguments[1]) {throw new Error('URL not match');}",
+      "targets": [],
+      "value": "{$firstURL$},{$secondURL$}"
+    }]
+  }, {
+    "id": "070198a9-62df-43cd-8c34-2d57e10ab468",
+    "name": "Slučaj prikaza proizvoda po količini 5",
+    "commands": [{
+      "id": "e388db36-f99a-4043-b27b-bf5b5c998356",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "757b0425-7283-43ec-b928-52dcaa11d5d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ec71827-cc82-4f9d-ae53-382bcb49ea0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4675a2c9-0da4-4403-b18f-c52c3b57a765",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8511d6c5-872c-414d-8708-1f4da032748b",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11869550-b464-4d72-8259-4ff2c2782146",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "25ebe475-f24f-4607-9cb1-ec695ee070a4",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[6]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6e402c51-45c9-44a2-8445-5c01cd2b945b",
+    "name": "Slučaj prikaza proizvoda po količini 10",
+    "commands": [{
+      "id": "fd16f767-7209-4c1a-ac43-e83df5c9eebd",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "339feb79-1b98-4f79-8806-1e8af2453124",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59bce170-0df4-4c9a-b091-96d062c41863",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92a450aa-7164-4ac5-996b-2e47c727323f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0851b161-59f6-42d8-8e65-8f82c108e56b",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6896a8d1-fb93-40c2-859b-1d656e720e62",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=10"
+    }, {
+      "id": "c7b8a926-987b-4fec-9780-0213f8902fc7",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[11]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a6c4bd9a-837f-4134-9c92-c66fec94f796",
+    "name": "Slučaj prikaza proizvoda po količini 12",
+    "commands": [{
+      "id": "fa66c251-35af-4db5-921c-7402940b399c",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "611eed9e-e2fa-4d9c-982c-98f5e7176008",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1d8f364-365d-4e43-a1a7-e0bef41923ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8d56e46-e4ae-48b7-b21c-93e039e462b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b160688-a2c0-4a2d-beb1-23912715f3f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5abdcc13-83f2-498f-bf8a-1b9b62b365f3",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=12"
+    }, {
+      "id": "dcbe6ba1-ccd5-4415-94e4-eb8a7bc7e281",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[13]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "83de907e-a4ef-4013-b269-a99d037d5207",
+    "name": "Slučaj prikaza proizvoda po količini 15",
+    "commands": [{
+      "id": "063dc595-8a67-4323-980a-5eb87e3fbeea",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7153a5b-c7b4-4b18-8508-774a08c33347",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cbd0946-ddb0-4560-8e02-51d2799fa0f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4700755-68a0-4367-b8e6-a817ad781217",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77bd76ec-c736-4dbf-9f2f-2d1d45db951c",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "479a52fd-e5f6-4aca-9b78-799eaed783ac",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "810ebbd4-7232-489c-a78d-c8cde18c696f",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[6]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a4c1ba8-b838-4480-92af-7919e76fbefe",
+    "name": "Slučaj prikaza proizvoda po količini 20",
+    "commands": [{
+      "id": "4e6ba267-8a4f-4d4a-96e7-a1eddfea2bf0",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93792b98-ea4f-450e-89fd-1980724d8172",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbb93877-4b1a-4cc3-8acf-743c44bca5b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94732f62-d65d-4839-b445-62eac47d9322",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70c60ff3-86e3-4d54-a20f-88997e9fbb4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5066f242-4cba-4a38-8f80-cc53609d021e",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=20"
+    }, {
+      "id": "06754d28-c3f0-4c58-8da7-c4322d47b311",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[21]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6eee1001-c0e6-441d-9f3b-8bd68f04afa0",
+    "name": "Slučaj prikaza proizvoda po količini 50",
+    "commands": [{
+      "id": "c4ddf45b-bde8-41c4-b020-95dc4b435c50",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e4f54a4-b914-4856-8e7a-89cd61959af2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66104cbc-e60e-4b85-ae3b-d9f981cb7897",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b91c5f6-8dd4-4cde-bb0e-c50af893862e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2729f708-9028-49d0-a856-f693dac59fa3",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac2382cc-cc6d-401c-9fef-939b013fa855",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=50"
+    }, {
+      "id": "5ea0d769-8380-4a2f-b80c-56b9c36e22cb",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[51]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ab74e871-3b1d-49f9-a013-c18e28e018a0",
+    "name": "Slučaj prikaza proizvoda po količini 25",
+    "commands": [{
+      "id": "e284462b-9d67-452d-8fb0-b4ce040d441e",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8c33f47-ab10-4311-829c-37f4586cf2f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de0ac315-3023-433a-80b7-3d57d47bec36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary",
+      "targets": [
+        ["css=.off-canvas-toggle-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49130236-bd6e-4b78-bbc1-16b3da09da16",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f0fcc7-f865-42be-ae7a-2a015acb5e5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=limit",
+      "targets": [
+        ["id=limit", "id"],
+        ["name=limit", "name"],
+        ["css=#limit", "css:finder"],
+        ["xpath=//select[@id='limit']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef8a51ee-35fc-45c1-a614-122b79ddb37a",
+      "comment": "",
+      "command": "select",
+      "target": "id=limit",
+      "targets": [],
+      "value": "label=25"
+    }, {
+      "id": "24f2c127-a6b8-49c2-9ab6-12a2a8de2001",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=(//div[@class=\"vm-product-descr-container-1\"])[26]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "deecfe5d-c345-44fb-af78-877c8f349648",
+    "name": "Neuspješno dodavanje proizvoda na board platforme 'Pinterest' ",
+    "commands": [{
+      "id": "031bbc8e-94cf-4d3f-8a31-ee3c9a4be46b",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c768a94-1895-4b57-99eb-e97a6bb559fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "654x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "787d61f3-f449-4f0b-9d33-b0b02e203557",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Diana",
+      "targets": [
+        ["linkText=Nina", "linkText"],
+        ["css=#Mod367 .width100:nth-child(2) .name:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Nina')]", "xpath:link"],
+        ["xpath=//div[@id='Mod367']/div/div/div/div/div/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/shop-katalog/product/view/38/542')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e44769-e487-4597-8e35-150d67073e45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Save",
+      "targets": [],
+      "value": "30000",
+      "opensWindow": true,
+      "windowHandleName": "win1211",
+      "windowTimeout": 2000
+    }, {
+      "id": "2d4307ee-f6be-4d02-8a96-f60baab890da",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0e2ec68-243f-4430-97af-ef975bc1f186",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1211}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1d3b8a0-38ba-4053-85a4-86e8c069ff83",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Pinterest",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5bbc621-7474-40d5-905e-143edd06ecf2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#mweb-unauth-container > div > div > div.XbT.zI7.iyn.Hsu > div > div > div > div > div > div > div > div > div > div.Jea.KS5.jzS.l7T.mQ8.zI7.iyn.Hsu > div > div > div > div > div > div > img[src*='DIANA']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f6f38fe8-7314-4a4d-8366-8130fb22f725",
+    "name": "Lajkanje proizvoda na platformi 'Facebook'",
+    "commands": [{
+      "id": "4834ae04-3287-435e-be41-34067b51e72d",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac8f3aab-b06b-4173-af9d-6aa7acff200d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9be22305-87f1-4d72-9dfa-744610253538",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-item:nth-child(2) .button_detail:nth-child(2)",
+      "targets": [
+        ["css=.owl-item:nth-child(2) .button_detail:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Detail')])[2]", "xpath:link"],
+        ["xpath=//div[@id='javm_slider383']/div/div/div[2]/div/div/div/div[5]/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/shop-katalog/product/view/14/906')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[5]/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb4df3f-431f-4f44-b5b5-e1b360eba7f5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f69f15a-77ec-4356-bc07-31a49cedb97f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_8f1i",
+      "targets": [
+        ["css=.\\_8f1i", "css:finder"],
+        ["xpath=//button[@id='icon-button']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b96346e5-4bb2-411d-84af-c01312504de1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Facebook",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ae258749-b388-4be3-ba75-f9b40b8237f8",
+    "name": "Dijeljenje proizvoda na platformi 'X'",
+    "commands": [{
+      "id": "7ee543e9-3ad4-4727-96e2-3e4a11bc5306",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b41de89e-098d-43f3-88e8-d228f458bdc0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "678b07cf-899c-430b-852c-06b39afac7e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-item:nth-child(2) .button_detail:nth-child(1)",
+      "targets": [
+        ["css=.owl-item:nth-child(2) .button_detail:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Detail')])[11]", "xpath:link"],
+        ["xpath=//div[@id='javm_slider385']/div/div/div[2]/div/div/div/div[5]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/shop-katalog/product/view/13/991')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/div[5]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e72497ea-ccec-4f21-8e4a-18e39cfa4fdc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f29b28-a368-4b59-b540-22a20001ef3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=l",
+      "targets": [
+        ["id=l", "id"],
+        ["css=#l", "css:finder"],
+        ["xpath=//span[@id='l']", "xpath:attributes"],
+        ["xpath=//a[@id='b']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Post')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7924",
+      "windowTimeout": 2000
+    }, {
+      "id": "640e8bfe-70fb-477c-b95c-421434b56fd7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7924}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8669ee19-4ad6-4ace-8363-cf2ca94b8df5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=/html/head/link[16][@title='Twitter']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0f749674-32df-4b4b-974f-c0445eda81a1",
+    "name": "Provjera back dugmeta unutar prikaza kategorije proizvoda sa dodanim filterima ",
+    "commands": [{
+      "id": "a365df7f-4b23-4f7f-a5cd-4f422af66c43",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b58e1f0-c345-466b-a468-7e7a620f9380",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7cef7e6-50b6-44c2-8666-763d3425a348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.off-canvas-toggle-primary > .fa",
+      "targets": [
+        ["css=.off-canvas-toggle-primary > .fa", "css:finder"],
+        ["xpath=//nav[@id='t3-mainnav']/div/div/div[2]/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47ed7ff-1847-462b-b72d-b799c7cdd9e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEPIH CENTAR",
+      "targets": [
+        ["linkText=TEPIH CENTAR", "linkText"],
+        ["css=.open > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEPIH CENTAR')]", "xpath:link"],
+        ["xpath=//div[@id='Mod347']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/bih/tepihcentarnewcat')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEPIH CENTAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b18d5bed-e793-4ed9-bbb4-92801972f015",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_product_list_filter",
+      "targets": [
+        ["id=submit_product_list_filter", "id"],
+        ["css=#submit_product_list_filter", "css:finder"],
+        ["xpath=//input[@id='submit_product_list_filter']", "xpath:attributes"],
+        ["xpath=//form[@id='sort_count']/div/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02469e6e-2965-49b7-a3bf-4aa12a907972",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productitem_687 .btn-primary",
+      "targets": [
+        ["css=.productitem_687 .btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Detail')]", "xpath:link"],
+        ["xpath=//div[@id='comjshop_list_product']/div/div/div[2]/div/div[5]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/bih/shop-katalog/product/view/19/687')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "644c29dd-ed7b-47da-a733-1b6bf26fbe8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-back",
+      "targets": [
+        ["css=.link-back", "css:finder"],
+        ["xpath=//input[@value='Back']", "xpath:attributes"],
+        ["xpath=//div[@id='t3-content']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1f051ccc-c080-4153-b1c7-f86479bdf10b",
+    "name": "Testiranje situacije kada osoba nije prethodno bila pretplaćena",
+    "commands": [{
+      "id": "8a214c21-bf23-4846-b9af-c87ae337739f",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e507b87b-d020-4eea-8632-4c4975be64bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.subbutton", "css:finder"],
+        ["xpath=//input[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de971c78-f628-47af-b2cd-7693ce16c8ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_field_186",
+      "targets": [
+        ["id=email_field_186", "id"],
+        ["name=user[email]", "name"],
+        ["css=#email_field_186", "css:finder"],
+        ["xpath=//input[@id='email_field_186']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym98091']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e92d838b-001f-4cc5-9c27-55a1915db533",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_field_186",
+      "targets": [
+        ["id=email_field_186", "id"],
+        ["name=user[email]", "name"],
+        ["css=#email_field_186", "css:finder"],
+        ["xpath=//input[@id='email_field_186']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym98091']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "novimail@gmail.com"
+    }, {
+      "id": "4bcd04f4-760d-4dd2-9733-0a6887ee7fae",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.subbutton", "css:finder"],
+        ["xpath=//input[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym98091']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be4905b8-10f6-4da4-b2c6-1586f34286bc",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//html/body/div[3]/footer/div/div/div[2]/div[1]/div/div/div/div/div",
+      "targets": [],
+      "value": "An e-mail has been sent to confirm your subscription"
+    }]
+  }, {
+    "id": "afa0afb6-a627-441f-b003-60a659277ec0",
+    "name": "Testiranje situacije kada osoba već ima pretplatu",
+    "commands": [{
+      "id": "1e1b6a7b-bb5e-4042-96cd-de0ad9990875",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11529971-4f44-4c20-a0fb-ca9fd3a5ba2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_field_186",
+      "targets": [
+        ["id=email_field_231", "id"],
+        ["name=user[email]", "name"],
+        ["css=#email_field_231", "css:finder"],
+        ["xpath=//input[@id='email_field_231']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b0bc72-1d0a-4958-b769-af2ed2391e68",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_field_186",
+      "targets": [
+        ["id=email_field_231", "id"],
+        ["name=user[email]", "name"],
+        ["css=#email_field_231", "css:finder"],
+        ["xpath=//input[@id='email_field_231']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "azametica1@etf.unsa.ba"
+    }, {
+      "id": "21f54fdc-50fa-4be8-a3eb-b010b1931f99",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.subbutton", "css:finder"],
+        ["xpath=//input[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec31131-79f8-485e-91c8-0cb17f66f05e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//html/body/div[3]/footer/div/div/div[2]/div[1]/div/div/div/div/div",
+      "targets": [],
+      "value": "Vi ste već pretplaćeni"
+    }]
+  }, {
+    "id": "dd9a7fb7-92a6-48f6-9654-d85e190d9c43",
+    "name": "Testiranje situacije kada osoba unosi nevalidan format emaila",
+    "commands": [{
+      "id": "049d712f-29f7-4eb6-8a60-fd7ba5892b38",
+      "comment": "",
+      "command": "open",
+      "target": "https://kesten.ba/index.php/bih/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2765ccbb-55b9-442d-92dc-266f41a72458",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4db2d80-6099-4de8-9fdf-45232ee57563",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_field_186",
+      "targets": [
+        ["id=email_field_231", "id"],
+        ["name=user[email]", "name"],
+        ["css=#email_field_231", "css:finder"],
+        ["xpath=//input[@id='email_field_231']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f487b9d-db82-4533-9c4e-d96b13a2ba3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_field_186",
+      "targets": [
+        ["id=email_field_231", "id"],
+        ["name=user[email]", "name"],
+        ["css=#email_field_231", "css:finder"],
+        ["xpath=//input[@id='email_field_231']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "6721974c-5aeb-43da-bf23-7fc173c92115",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.subbutton", "css:finder"],
+        ["xpath=//input[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formAcym88871']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1372b49-5c19-4b7a-a8f6-d5854e00f4bd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=email_field_186",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "686e7021-b4de-4da2-9197-dc90d98e8a46",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4072673a-b5cc-4d44-a2a8-01cba72e7a37",
+    "name": "Interakcija sa društvenim mrežama",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d0b3252a-3a51-4112-98dd-c8f97bb0ade1", "deecfe5d-c345-44fb-af78-877c8f349648", "f6f38fe8-7314-4a4d-8366-8130fb22f725", "ae258749-b388-4be3-ba75-f9b40b8237f8"]
+  }, {
+    "id": "958fd6c2-2826-4c8b-b9df-879023218a29",
+    "name": "Prikaz proizvoda na stranici prema količini",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6e402c51-45c9-44a2-8445-5c01cd2b945b", "a6c4bd9a-837f-4134-9c92-c66fec94f796", "83de907e-a4ef-4013-b269-a99d037d5207", "7a4c1ba8-b838-4480-92af-7919e76fbefe", "ab74e871-3b1d-49f9-a013-c18e28e018a0", "6eee1001-c0e6-441d-9f3b-8bd68f04afa0", "070198a9-62df-43cd-8c34-2d57e10ab468"]
+  }, {
+    "id": "c7708730-b2a4-4dcd-b1e1-7d95d71c1d92",
+    "name": "Provjera funkcionalnosti Subscription",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1f051ccc-c080-4153-b1c7-f86479bdf10b", "afa0afb6-a627-441f-b003-60a659277ec0", "dd9a7fb7-92a6-48f6-9654-d85e190d9c43"]
+  }],
+  "urls": ["https://kesten.ba/", "https://kesten.ba/index.php/bih/"],
+  "plugins": []
+}
